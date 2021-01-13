@@ -1,0 +1,147 @@
+body {
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+  background-color: #daad86;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+footer {
+  color: #888;
+  border-top: 1px solid #888;
+  margin-top: 16px;
+  padding: 16px 0;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+header a {
+  color: #888;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #e27d60;
+}
+
+.potrait {
+  width: 250px;
+}
+
+table,
+tr,
+th,
+td {
+  padding: 4px 20px 4px 4px;
+  font-size: 14px;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  text-align: left;
+}
+
+caption {
+  font-size: 18px;
+}
+
+.form-control {
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  padding: 8px;
+  width: 100%;
+}
+
+.btn {
+  cursor: pointer;
+  border: 1px solid #888;
+}
+
+.btn-primary {
+  background-color: green;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.btn-secondary {
+  background-color: #888888;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.btn-info {
+  background-color: rgb(40, 92, 40);
+  color: white;
+  padding: 6px 16px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.btn-danger {
+  background-color: red;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.btn-sm {
+  padding: 2px 8px;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+button:hover {
+  color: #333333;
+}
+
+.form-group {
+  padding: 4px;
+}
+
+.danger,
+.validation-error {
+  color: red;
+}
+
+.danger {
+  font-weight: bold;
+}
+
+.alert-success {
+  width: 100%;
+  padding: 8px;
+  background-color: green;
+  color: lightgreen;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.success {
+  color: green;
+}
